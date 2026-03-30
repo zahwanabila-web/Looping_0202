@@ -29,4 +29,15 @@ do{
     cout<<"Bilngan acak = "<<x <<endl;
     x = rand()%10;
 }while(x<=5);
+
+cout<<"Bilangan acak do-while yang terakhir ="<<x <<endl;
+cout<<endl;
+}
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    float nilB,nilM,rerata;
+    string status;
 }
