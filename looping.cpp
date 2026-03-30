@@ -73,3 +73,24 @@ int main(){
 
     cout<<"Status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
 }
+#include <iostream>
+using namespace std;
+
+int main(){
+    float nilB,nilM,rerata;
+    string status;
+
+    cout<<"Masukkan nilai Matematika = ";
+    cin>>nilM;
+    cout<<"Masukkan nilai bahasa Inggris = ";
+    cin>>nilB;
+
+    rerata = (nilB+nilM)/2;
+
+    if ((rerata >= 60) && (nilM >= 70))
+        status = "lulus";
+    else
+        status = "Tidak lulus";
+
+    cout<<"status kelulusan = "<<status<<" ,dengan nilai rata-rata = "<<rerata<<endl;
+}
