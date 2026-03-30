@@ -3,7 +3,7 @@ using namespace std;
 
 int kodeJurusan;
 string namaJurusan;
-string statusKota;
+string statusKuota;
 
 void input() {
     cout << "=== PENDAFTARAN JURUSAN KAMPUS ===" << endl;
@@ -17,6 +17,9 @@ void input() {
 
 void pilihanJurusan() {
     switch (kodeJurusan) {
-        
+        case 1:
+            namaJurusan = "Teknologi Informasi";
+            statusKuota = "Tersedia (15 Kursi)";
+            break;
     }
 }
