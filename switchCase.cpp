@@ -28,6 +28,9 @@ void pilihanJurusan() {
         case 3:
             namaJurusan = "istem Informasi";
             statusKuota = "Tersedia (5 kursi)";
-            break:
+            break;
+        default:
+             namaJurusan = "Tidak Diketahui";
+             statusKuota = "Error: kode Tidak Valid";
     }
 }
